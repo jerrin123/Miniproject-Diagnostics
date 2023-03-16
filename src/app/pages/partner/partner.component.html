@@ -1,0 +1,78 @@
+<div class="img">
+
+  <img src="https://www.medivision.in/uploaded_files/banner/partner-with-us_1652251359.jpg" alt="">
+</div>
+
+
+
+
+
+<div class="about-section">
+  <h1></h1>
+  <p>Our strength lies in providing quality diagnostic service, as our Centre of Excellence laboratory in Cochin is
+    accredited by NABL (National Accreditation Board for Testing and Calibration laboratories)in accordance with
+    ISO15189:2012, and the quality certifications are indicators that we keep pace with global quality standards.</p>
+  <h1>Medivision Authorized Collection Centre</h1>
+  <p>Are you a laboratory who wants to get your outsourced tests done at the most reliable laboratory giving accurate
+    results?
+    Do you want your outsourced tests to be available at the shortest TAT?
+    Do you want to be connected to your outsourced lab to download & print the results online?
+    Do you want your outsourced test bills to be hassle free and details available online anytime?</p>
+  <h1>Hospital Laboratory Solutions </h1>
+  <p>Medivision is a channel partner with many leading hospitals by offering full scale in-house Laboratory services and
+    solutions .Medivision has been managing the laboratories of many leading multi-specialty hospitals.
+    Medivision empowers hospitals to focus on core healthcare services by managing the clinical laboratory facility
+    which will function like another department in the hospital. By sparing them the effort to manage yet another
+    department, it turns out to be a cost-effective solution. With the back-up from the Medivision core team, the
+    hospital laboratory will function like a referral lab with full-fledged departments and carries out a wide range of
+    clinical lab tests</p>
+  <h1>Laboratory Samples outsourcing</h1>
+  <p>Medivision offers an extensive test menu and hospitals across the outsource their laboratory samples to us. We give
+    the hospitals an opportunity to partner with us in the outsourced sample processing. We give full online solutions
+    for the hospitals to ensure that the results are delivered at the lowest TAT. Our commitment to quality processes
+    and accurate results has led us to become one of the most trusted partners to hospitals and doctors alike .Our
+    extensive experiences have equipped us with the prerequisite expertise to upgrade and operate existing laboratories
+    to maximize productivity and efﬁciency for a superior quality in-house diagnostic service and ensure better returns
+    on investment.</p>
+</div>
+
+
+
+
+
+<div class="container">
+  <div class="title">Partner With Us.</div>
+  <div class="content">
+    <form #f="ngForm" (ngSubmit)="inData(f)">
+
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Hospital/Lab Name</span>
+          <input type="text" name="name"  value="" placeholder="name" ngModel  >
+        </div>
+        <div class="input-box">
+          <span class="details">Contact Person Name</span>
+          <input type="text"  required name="namee"  value="" placeholder="namee" ngModel>
+        </div>
+        <div class="input-box">
+          <span class="details">Contact Person Email</span>
+          <input type="email"  required name="email"  value="" placeholder="email" ngModel>
+        </div>
+        <div class="input-box">
+          <span class="details">Contact Person Phone Number</span>
+          <input type="tel"  required name="number"  value="" placeholder="phone" ngModel>
+        </div>
+        <!-- <div class="input-box"> -->
+        <!-- <span class="details">Password</span> -->
+        <!-- <input type="text" placeholder="Enter your password" required> -->
+      </div>
+      <!-- </div> -->
+      
+      <div class="button">
+        <button class="btn btn-info" type="submit" name="button" (click)="send()">
+          <i class="fa fa-paper-plane-o" aria-hidden="true"></i>send
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

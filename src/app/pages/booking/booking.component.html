@@ -1,0 +1,101 @@
+<!-- <form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8"> -->
+  <form #f="ngForm" id="ft-form" (ngSubmit)="sendData(f)">
+
+  <fieldset>
+    <legend>REQUEST FOR Booking WE will Call you</legend>
+    <label>
+      Name
+      <input type="text" name="name" required value="" placeholder="name" ngModel>
+    </label>
+    <div class="two-cols">
+      <label>
+        Email address
+        <input type="email" name="email" required value="" placeholder="email" ngModel>
+      </label>
+      <label>
+        Phone number
+        <input type="tel" name="phone" value="" placeholder="phone" ngModel>
+      </label>
+    </div>
+  </fieldset>
+
+  <select name="branch"  class="form-select" value="" placeholder="branch" ngModel>
+    <option value="">Select Branch</option>
+    <option value="mavelikara">Mavelikara</option>
+    <option value="parumala">Parumala</option>
+    <option value="kottayam">Kottayam</option>
+    <option value="vytila">Vytla</option>
+    <option value="pnampalli">Panampallinagar</option>
+    <option value="vadavathoor">Vadavathoor</option>
+    <option value="adoor">Adoor</option>
+    <option value="thrissur">Thrissur</option>
+    <option value="anchal">Anchal</option>
+    <option value="vanadanam">Vandanam</option>
+    <option value="thiruvalla">Thiruvalla</option>
+    <option value="palayam">Palayam</option>
+    <option value="thampanoor">Thampanoor</option>
+    <option value="thodupuzha">Thodupuzha</option>
+    <option value="kuttippuram">Kuttippuram</option>
+  </select>
+  <select name="test"  class="form-select" value="" placeholder="test" ngModel>
+    <option value="">Select Test</option>
+    <option value="chs">CHILD HEALTH SCREEN</option>
+    <option value="chc">COMPREHENSIVE HEALTH CHECKUP</option>
+    <option value="dc">DIABETIC CHECKUP</option>
+    <option value="gt">GENERAL TEST</option>
+    <option value="chc1">COMPREHENSIVE HEALTH CHECKUP</option>
+    <option value="hlcp">HEALTHY LADY CHECUP PACKAGE</option>
+    <option value="khc">KIDNEY HEALTH SCREENING</option>
+    <option value="sccm">SENIOR CITIZEN CHECKUP(MALE)</option>
+    <option value="sccf">SENIOR CITIZEN CHECKUP(FEMALE)</option>
+    <option value="ccm">CANCER CHECKUP(MALE)</option>
+    <option value="ccm">CANCER CHECKUP(FEMALE)</option>
+    <option value="lfs">LIVER HEALTH SCREENING</option>
+    <option value="fcm">FERTILITY CHECKUP (MALE)</option>
+    <option value="fcf">FERTILITY CHECKUP (FEMALE)</option>
+    <option value="cs">Cardiac Screening</option>
+    <option value="ehcl">EXECUTIVE HEALTH CHECKUP-LADIES</option>
+    <option value="ehcm">EXECUTIVE HEALTH CHECKUP-MEN</option>
+    <option value="hlcpb">HEALTHY LADY CHECKUP PACKAGE(B)</option>
+
+  </select>
+
+
+  <fieldset>
+    <legend>Appointment request</legend>
+    <div class="two-cols">
+      <label>
+        Date
+        <input type="date" name="Appointment request" required value="" placeholder="date" ngModel>
+      </label>
+      <div class="inline">
+        <label>
+          <input type="hidden" name="Morning desired" value="no" value="" placeholder="date" ngModel>
+          <input type="checkbox" name="Morning desired" value="yes" value="" placeholder="date" ngModel>
+          Morning
+        </label>
+        <label>
+          <input type="hidden" name="Afternoon desired" value="no" value="" placeholder="date" ngModel>
+          <input type="checkbox" name="Afternoon desired" value="yes" value="" placeholder="date" ngModel>
+          Afternoon
+        </label>
+      </div>
+    </div>
+    <p>Confirmation requested by</p>
+    <div class="inline">
+      <label>
+        <input type="radio" name="Confirmation requested by" value="email" checked value="" placeholder="email" ngModel>
+        Email
+      </label>
+      <label>
+        <input type="radio" name="Confirmation requested by" value="phone" value="" placeholder="email" ngModel>
+        Phone call
+      </label> 
+    </div>
+  </fieldset>
+  <div class="btns">
+    <button class="btn btn-info" type="submit" name="button" (click)="booknow()">
+      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>BookNow
+    </button>
+  </div>
+</form>

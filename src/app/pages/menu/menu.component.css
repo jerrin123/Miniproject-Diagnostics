@@ -1,0 +1,20 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    /* background-color: black; */
+
+}
+
+h5 {
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+}
+
+p {
+    /* align-items: center; */
+    text-align: center;
+    font-size: medium;
+    font-stretch: normal;
+    font-weight: 100;
+}

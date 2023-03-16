@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "diagnostic-ae3f5": {
+      "hosting": {
+        "Diagnostics": [
+          "diagnostic-ae3f5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "diagnostic-ae3f5"
+  }
+}

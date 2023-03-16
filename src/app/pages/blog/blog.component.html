@@ -1,0 +1,32 @@
+<!-- Load image -->
+<div class="img">
+    <img src="https://www.medivision.in/uploaded_files/banner/blog-1-_1654338537.png" alt="">
+</div>
+<br>
+<br>
+<br>
+<!-- End Load image -->
+
+
+
+<!-- Blog starts -->
+<div class="container text-center">
+    <div class="row">
+      <div class="col" *ngFor="let item of blog">
+        <div class="" style=" height: 23rem; width: 18rem; ">
+          <img src="{{item.giph}} "class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">{{item.date}}</h6>
+             <h5 class="card-price">{{item.link}}</h5>
+            <!-- <p class="card-text">{{item.desc}}.</p> -->
+            <a (click)="gotohere(item.id)" class="btn btn-primary">READ BLOG</a>
+          </div>
+        </div>  
+      </div>
+    </div>
+</div>
+<!-- </div> -->
+      
+    
+      
+ <!-- End Blog -->
