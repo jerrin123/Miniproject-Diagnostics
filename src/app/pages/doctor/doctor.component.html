@@ -1,0 +1,56 @@
+<div class="img">
+    <img src="https://www.topinspired.com/wp-content/uploads/2021/06/doctor-medical-background.jpeg" alt="">
+</div>
+
+<div class="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                <div class="inner-column">
+                    <div class="sec-title">
+                        <span class="title"></span>
+                        <h2>WE Are Here </h2>
+                    </div>
+                    <div class="text">JJ Diagnostic center provide a Doctor's Service for our customers. Qualified , specialied doctors are here to know and solve your health problems. We have Diabtologist, Ortho, ENT, Pysician, Gynacologist etc. </div>
+                    <div class="text">Our doctors will connect you to know your problems. You can get Our doctors service Using The bellow Button.You can ask service at any time.</div>
+                    <div class="btn-box">
+                        <!-- <a href="contact" class="theme-btn btn-style-one">Contact US</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Column -->
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column wow fadeInLeft">
+
+                    <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img
+                                title="Rahul Kumar Yadav" src="https://wallpaperaccess.com/full/619976.jpg" alt=""></a>
+                    </figure>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container text-center">
+    <div class="row">
+      <div class="col" *ngFor="let item of menu">
+        <div class="card bg-light mb-3" style=" height: 20rem; width: 18rem; ">
+          <img src="{{item.doctor}} " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{item.docname}}</h5>
+            
+            <a (click)="gotohere(item.id)" class="btn btn-primary">Take an appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
+<br>
+<br>

@@ -27,6 +27,10 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import {AngularFireModule} from '@angular/fire/compat'
 import { FormsModule } from '@angular/forms';
+import { AdminComponent } from './pages/admin/admin.component';
+import { ForgotComponent } from './pages/forgot/forgot.component';
+import { DoctorComponent } from './pages/doctor/doctor.component';
+import { AppointmentComponent } from './pages/appointment/appointment.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +51,10 @@ import { FormsModule } from '@angular/forms';
     ApplicationComponent,
     BlogComponent,
     SingleblogComponent,
+    AdminComponent,
+    ForgotComponent,
+    DoctorComponent,
+    AppointmentComponent,
     
   ],
   imports: [

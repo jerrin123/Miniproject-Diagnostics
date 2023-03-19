@@ -1,3 +1,17 @@
+<div class="img">
+
+  <img src="https://www.medivision.in/uploaded_files/banner/common_1652251938.png" alt="">
+</div>
+
+<h1><span>Request For </span> Booking <span>We will </span>Call You</h1>
+<!-- <h1>Booking Form</h1> -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
 <!-- <form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8"> -->
   <form #f="ngForm" id="ft-form" (ngSubmit)="sendData(f)">
 
@@ -83,10 +97,7 @@
     </div>
     <p>Confirmation requested by</p>
     <div class="inline">
-      <label>
-        <input type="radio" name="Confirmation requested by" value="email" checked value="" placeholder="email" ngModel>
-        Email
-      </label>
+      
       <label>
         <input type="radio" name="Confirmation requested by" value="phone" value="" placeholder="email" ngModel>
         Phone call
@@ -94,8 +105,13 @@
     </div>
   </fieldset>
   <div class="btns">
-    <button class="btn btn-info" type="submit" name="button" (click)="booknow()">
+    <button class="btn btn-info"  type="submit" name="button" (click)="booknow()">
       <i class="fa fa-paper-plane-o" aria-hidden="true"></i>BookNow
     </button>
   </div>
 </form>
+</div>
+<button class="btn btn-info"  type="submit" name="button" href="home">
+  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>Logout
+
+

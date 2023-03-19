@@ -15,7 +15,7 @@ export class AuthService {
 localStorage.setItem('token','true')
 this.router.navigate(['/booking']) 
 }, err => {
-    alert('something wrong')
+    alert('You Need to Create an Account')
     this.router.navigate(['/login'])
      })
   }
@@ -42,6 +42,18 @@ this.router.navigate(['/booking'])
       alert('something wromg');
     })
   }
+
+  //signout
+signOut(){
+  this.fireauth.signOut().then( () =>{
+localStorage.removeItem('token');
+this.router.navigate(['/'])
+  }, err =>{
+    alert(err.message);
+    // this.router.navigate(['/'])
+  })
+}
+
 }
 
  

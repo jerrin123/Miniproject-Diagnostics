@@ -2,11 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about.component';
 import { ApplicationComponent } from './pages/application/application.component';
+import { AppointmentComponent } from './pages/appointment/appointment.component';
 import { AutomationComponent } from './pages/automation/automation.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { BookingComponent } from './pages/booking/booking.component';
 import { CareersComponent } from './pages/careers/careers.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { DoctorComponent } from './pages/doctor/doctor.component';
+import { ForgotComponent } from './pages/forgot/forgot.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { LoginComponent } from './pages/login/login.component';
 import { MenuComponent } from './pages/menu/menu.component';
@@ -57,8 +60,16 @@ const routes: Routes = [
   },
   {
     path:'singleblog',component:SingleblogComponent
-  }
-
+  },
+  {
+  path:'forgot',component:ForgotComponent
+  },
+  {
+    path:'doctor',component:DoctorComponent
+  },
+  {
+    path:'appointment',component:AppointmentComponent
+  },
 ];
 
 @NgModule({

@@ -24,6 +24,8 @@ export const data = [
     para2:'There have been cases of organ damage caused by COVID-19 as well. Although the disease primarily affects the lungs, other organs, including the heart, kidneys, and the brain are also subject to damage.  Organ damage if any also leads to health complications that linger after COVID-19 illness. The lasting health effects in some people included long-term breathing problems, heart complications, chronic kidney impairment, stroke, and Guillain-Barre syndrome (a condition that causes temporary paralysis). Some adults and children also complained about experiencing multisystem inflammatory syndrome after they had COVID-19.',
     head3:'Bottomline ',
     para3:'Post-COVID syndrome is a newphenomenon, and studies are still revolving around it. But doctors know its symptoms, particularly the extreme fatigue which can have huge downstream effects on a person s quality of life, and impact his family life and work productivity.Specialty doctors and hospitals who are working as a team have a unique goal to help such people manage their lingering symptoms as effectively as possible. The clinic also focuses on performing impactful research and provides doctors with access to those tools that can help tailor care to the specific treatments someone previously received or the particular strain of the virus he or she was infected with. Lastly, it s all the more reason to continue to take the essential steps to reduce your risk of getting sick.',
+    doctor:'https://wallpaperset.com/w/full/9/2/0/455904.jpg',
+    docname:'DR.Joseph Kuruvila (MBBS, DIABATOLOGIST)',
   },
   {
     id: 2,
@@ -49,6 +51,8 @@ export const data = [
     para2:'If the liver is healthy and functioning, the bile acids levels will be low in the resting blood sample and only slightly higher levels of bile acids will be there in the postprandial sample. This indicates that bile acids released from the gall bladder during the test meal were adequately recaptured by the liver during the 2-hour period following the meal. Hence the conclusion from the test will be that the liver has enough cells to do its job, there is a blood supply, and bile is flowing properly. But a normal result needn’t always mean the liver is completely healthy. Because, sometimes the bile acid test results will show normal, even when there is a problem in the liver. This happens when the problem is mild or affects only a small portion of the liver.In such situations, there is often no reduction in the overall ability of the liver to do its job. In other situations, the gall bladder may not contract as expected, and bile acids levels will be low, even though a liver problem may exist',
     head3:'Conclusion    ',
     para3:'Bile acid tests are highly helpful in understanding if the bile and the liver are functioning well. If the bile acid test is abnormal, the result indicates that there is a problem in the liver. Depending on how sick the person is and how abnormal the test results are, the doctor may recommend monitoring the situation, or may suggest moving on to additional diagnostic tests including an ultrasound of the liver, and possibly a liver biopsy.',
+    doctor:'https://wallpapercave.com/wp/wp2469723.jpg',
+    docname:'Dr.Rajeev Philp (ONCOLOGIST)',
   },
   {
     id: 3,
@@ -74,6 +78,8 @@ export const data = [
     para2:'A direct Coombs test, or direct antiglobulin testing DAT, helps to detect why a person has symptoms that suggest trouble related to their blood.The direct Coombs test can detect antibodies that are stuck to the surface of red blood cells due to certain diseases and/or the usage of certain drugs. In such cases, the antibodies sometimes destroy the red blood cells causing anaemia. In such cases, a direct coombs test will be recommended to test for signs or symptoms of anaemia or jaundice.You might get sick after a blood transfusion if the donors blood wasnt a good match. Your body may recognize those other blood cells as foreign and make antibodies to get rid of them, even though theyre meant to help.',
     head3:'Conclusion    ',
     para3:'The Coombs test is effective in checking your blood for antibodies that attack red blood cells. This test may is usually used to screen your blood before a procedure, such as a blood transfusion or to find out if you have certain conditions, such as autoimmune haemolytic anaemia.',
+    doctor:'https://c4.wallpaperflare.com/wallpaper/232/159/577/adult-doctor-girl-healthcare-wallpaper-thumb.jpg',
+    docname:'Dr. Neethu Jerrin (GYNECOLOGIST)',
   },
   {
     id: 4,
@@ -99,6 +105,8 @@ export const data = [
     para2:'    Checks the amount of TSH in the blood first. TSH is a hormone made in the pituitary gland that tells the thyroid how much T4 and T3 to make.A high TSH level indicates hypothyroidism, or an underactive thyroid, meaning the thyroid isn’t making enough hormone. As a result, the pituitary keeps making and releasing TSH into the blood. A low TSH level usually means, hyperthyroidism, or an overactive thyroid. This occurs when the thyroid is making too much hormone, so the pituitary stops making and releasing TSH into the blood. If the TSH test results are not normal, you will need at least one other test to help find the cause of the problem.',
     head3:'To Conclude    ',
     para3:'If youre feeling tired for no reason or if you have other symptoms of suspected thyroid disease, it is wise to diagnose and understand your thyroid health. Just because you’re not showing any signs or symptoms of a thyroid disorder, also doesn’t mean it’s not there. Catching a thyroid nodule early on can decrease your chances of developing an overactive thyroid. Early detection also helps to treat more serious conditions including thyroid cancer.A regular and timely diagnosis helps with knowing and maintain your thyroid health. ',
+    doctor:'https://wallpapercave.com/wp/wp2469732.jpg',
+    docname:'Dr. Veena kumar Iyer (ORTHO)',
   },
   {
     id: 5,
@@ -124,6 +132,8 @@ export const data = [
     para2:'Blood tests to measure liver function, Imaging tests, such as CT and MRI, Liver biopsy, in some cases, to remove a sample of liver tissue for laboratory testing',
     head3:'To Conclude    ',
     para3:'The degree of liver damage plays a very important role in determining what treatment options are possible for an individual patient. Treatment for liver cancer has the most favourable outcome when detected and treated in the early stages before it has spread. Cancer marker like PIVKA-II has a significant role to play in the apt diagnosis of the condition of your liver. ',
+    doctor:'https://wallpapercave.com/wp/wp2968613.jpg',
+    docname:'Dr.Zaem Ali Ahamed  (PHYSICIAN)',
   },
   {
     id: 6,
@@ -150,6 +160,8 @@ export const data = [
     para2:'You may need this test if you have symptoms of a thyroid problem and your provider thinks they may be caused by Hashimoto disease or Graves disease. Symptoms of Hashimoto’s disease include: --Weight gain,Fatigue,Hair loss,Low tolerance for cold temperatures,  Irregular menstrual periods,Constipation,Depression,Joint pain',  
     head3:'Key Takeaway    ',
     para3:'The presence of antibodies is used as an indicator to confirm the diagnosis of autoimmune thyroid diseases. In certain cases, some people will test positive for more than one type of thyroid antibody and it is also possible to test positive for thyroid antibodies even without having thyroid disease. The presence of antibodies in a person with borderline thyroid disease can indicate the possibility of developing full-blown thyroid disease.  Hence, getting tested and treated is better than being ignorant!',
+    doctor:'https://media.gettyimages.com/videos/updating-patient-files-online-video-id1200051236?s=640x640',
+    docname:'Dr.Sherin S  (GYNECOLOGIST)',
   },
 
   {
@@ -176,6 +188,8 @@ export const data = [
     para2:'Different tests help to look for and diagnose breast cancer. If your doctor finds an area of concern on a screening test (a mammogram), or if you have symptoms that could mean breast cancer, you will need more tests to know for sure if it’s cancer, such as: ',
     head3:'To Conclude    ',
     para3:'Breast cancer is sometimes found after symptoms appear, but many women with breast cancer have no symptoms. This is why regular breast cancer screening is so important. Screening can often help find breast cancer early before any symptoms appear. Finding breast cancer early gives you a better chance of successful treatment. ',
+    doctor:'https://th.bing.com/th/id/OIP.23Lt5grZzKct1ZmgGGmbpwHaE7?w=244&h=180&c=7&r=0&o=5&pid=1.7',
+    docname:'Dr.Farhana (GASTRO)',
   },
   {
     id: 8,
@@ -201,6 +215,8 @@ export const data = [
     para2:'Each type of diabetes has a different cause. An autoimmune reaction of the body where the body attacks itself by mistake and destroys the insulin-producing beta cells in the pancreas causes Type 1 diabetes. Genes could be a reason for this and there is also a possibility that a virus sets off an immune system attack. In type 2 diabetes, the body doesn’t use insulin well and can’t keep blood sugar at normal levels. Around 90-95% of people with diabetes are tested as type 2 diabetic.  A combination of genetics and lifestyle factors can lead to Type 2 diabetes. In some cases, hormonal changes during pregnancy can cause another form of diabetes known as Gestational diabetes. Certain hormones produced by the placenta make a pregnant person’s cells less sensitive to the effects of insulin causing high blood sugar during pregnancy. Yet another type is Prediabetes, a condition where the blood sugar levels are higher than normal, but not high enough for a type 2 diabetes diagnosis. With Prediabetes the risk for type 2 diabetes, heart disease, and stroke are higher.',
     head3:' Combat the complications of diabetes    ',
     para3:'Diabetes complications are disabling, develop gradually, and can have long-term effects. The longer you have diabetes, the less controlled will be your blood sugar, resulting in a higher risk of complications. The commonest complications include cardiovascular disease, atherosclerosis, nerve damage, kidney failure, visual disturbance, and even depression. The deadliest complication is ketoacidosis where the patient lands up in the emergency department with vomiting, fast breathing, body aches headache, and breathing difficulties. Hence it is important to monitor and control blood glucose',
+    doctor:'https://phoenixsoldiers.org/images/privacy-act-bc-document-retention.jpg',
+    docname:'Dr.Akhil G(ORTHO SPCIALIST)',
   },
   {
     id: 9,
@@ -226,6 +242,8 @@ export const data = [
     para2:'maternal and paternal family history, previous pregnancy with pre-eclampsia,   multiple pregnancies (e.g., twins), maternal age (over 40 years), body mass index (BMI) over 30,pre-existing high blood pressure, diabetes, smoking, or kidney disease,systemic inflammation,ethnic origin.',
     head3:'Briefly    ',
     para3:'Pre-eclampsia is a condition that is specific to pregnancy and is diagnosed when a pregnant woman has high blood pressure and other clinical signs after 20 weeks of gestation. Although high blood pressure before pregnancy is one risk factor for preeclampsia, most women who develop preeclampsia never had high blood pressure and may have had low blood pressure before pregnancy.  , Pre-eclampsia can also develop postpartum. So, if you develop any of these symptoms after you give birth, check in with your healthcare provider immediately., If left untreated and unmonitored, preeclampsia can progress into more serious conditions that can put the mother and baby at risk for serious complications or even death.',
+    doctor:'https://www.toplinemd.com/carreras-medical-center/wp-content/uploads/sites/12/2021/05/What-Is-an-Internist-800x534.jpg',
+    docname:'Dr. Martin J (DIABATOLOGIST)',
   },
   {
     id: 10,
@@ -251,6 +269,8 @@ export const data = [
     para2:'X-ray,Magnetic resonance imaging (MRI),Computed tomography (CT or CAT) scan ,Positron emission tomography (PET) or PET-CT scan,Bone marrow aspiration and biopsy,  Fat pad aspirate,Biomarker testing of the tumour,Cytogenetics,Fluorescence in situ hybridization (FISH),   Minimal residual disease (MRD) tests',
     head3:'To Summarise    ',
     para3:'If you re experiencing symptoms or know someone who has been experiencing it, treatment can help relieve pain, control complications of the disease, stabilize the condition, and slow the progress of multiple myeloma. , Consultation and diagnosis is the key to treating and management of multiple myeloma.  ',
+    doctor:'https://texanent.com/wp-content/uploads/2021/04/an-ent-doctor-checking-up-on-a-woman.jpg', 
+    docname:'Dr.Shanu Ali(ENT)',
   },
   {
     id: 11,
@@ -277,6 +297,8 @@ export const data = [
     para2:'The AMH test is helpful when:You are not conceiving for over six months  You are contemplating IVF or other fertility treatments since low AMH levels suggest a poor response to IVF You want to understand your current chances of getting pregnant    ',
     head3:'Conclusion    ',
     para3:'An AMH test checks a woman s ability to produce eggs that can be fertilized for pregnancy. AMH levels show how many potential egg cells are remaining in a woman, which is also known as the ovarian reserve. If the ovarian reserve is high, there’s a better chance of getting pregnant. This also indicates that a woman may also be able to wait months or years before trying to get pregnant.  On the other hand, if the ovarian reserve is low, it indicates that a woman will have trouble getting pregnant, and should not delay very long before trying to have a baby.Thus, AMH testing plays a vital role in determining what your chances are of conceiving a baby. If you are already seeing a fertility specialist, your doctor may use the test to predict whether you will respond well to treatment, such as in vitro fertilization (IVF).An optimal level of AMH is 4.00ng/ml – 6.80ng/ml.    ',
+    doctor:'https://static.spacecrafted.com/d8084ebd368f4c10829ace74c8630750/i/df033a39ec3f425eb4cf48572cc19223/1/GCuCv727RiYFXYTGZA3v2p/Pharmacy%20Image%252851%2529.jpg',
+    docname:'Dr. Priya S (PYSICIAN)',
   },
   {
     id: 12,
@@ -302,6 +324,8 @@ export const data = [
     para2:'It is a maternal serum screening test that is performed during the first trimester, between 9 weeks and 12 weeks of pregnancy, and the ideal time is 11 weeks to 13 weeks.This test screens specifically for blood levels of both free beta-human chorionic gonadotrophin (beta-hCG) and pregnancy-associated plasma protein A (PAPP-A). Double marker test screening was previously recommended if you were over the age of 30 or have an elevated risk of chromosomal issues, such as if you have a family history of certain conditions. But today, a double marker test is mandatorily performed during the first trimester of pregnancy.     ',
     head3:'To Conclude',
     para3:'Prenatal screening allows for early detection of potentially life-threatening genetic illnesses. It tells the doctor if further probing is required and is a good starting point for monitoring the fetus and clearing any doubts surrounding its health.    ',
+    doctor:'https://th.bing.com/th/id/R.d318ff1d63a38b91834e813aef12a9a5?rik=6IIy8XEV2u4WQA&riu=http%3a%2f%2fwww.max90hyperfuses.co.uk%2fwp-content%2fuploads%2f2018%2f08%2fThings-That-Oncologists-Need-To-Know-About-Their-Patients.jpg&ehk=QEOA4LyB6UXsJFLPwXh0chDbQgSTcpTa8cs4geUbXHc%3d&risl=&pid=ImgRaw&r=0',
+    docname:'Dr.Ameer Muhammed(ENT)',
   },
   {
     id: 13,
@@ -327,6 +351,8 @@ export const data = [
     para2:'Food allergy testing is used to find out if a person has an allergy to a specific food. It may also be used to find out whether it is a true allergy or, a sensitivity to a food. Food sensitivity, which is also known as food intolerance, is often confused with a food allergy. The two conditions commonly have similar symptoms, but complications can be very different.    ',
     head3:'Conclusion: The Importance of Testing Your Allergies    ',
     para3:'Allergy testing can help avoid serious health implications or overreactions and it may relieve some of your stress if you find out you are allergy-free. Allergy testing is important and beneficial because it tells you exactly what to stay away from.Simply looking at history and patient reports to predict allergies is not reliable. Allergy testing can inform patients exactly what to stay away from and avoid overreactions.    ',
+    doctor:'https://jobstars.com/wp-content/uploads/2017/03/Onepixel_1744047-1200x800.jpg',
+    docname:'Dr. Arun Kumar(PHYSICIAN)',
   },
   {
     id: 14,
@@ -352,6 +378,8 @@ export const data = [
     para2:'Studies were conducted to analyse if increasing the quantity and quality of physical activity, will affect the overall glycaemic control independently or in combination with hypoglycaemic drugs. The majority of studies (that supplement weight reduction and exercise programs with appropriate drug therapy) were done. The objective of the assessment was to know the effect of how structured exercise training and unstructured physical activity intervenes with glycaemic control.The treatment guidelines stressed lifestyle modification, in terms of increasing the quantity and quality of physical activity to achieve target glycemia in patients with type 2 diabetes mellitus.    ',
     head3:'',
     para3:'',
+     doctor:'https://th.bing.com/th/id/OIP.zje6zNirx4OFJpvrq5ECOAHaE8?pid=ImgDet&rs=1',
+     docname:'Dr.Vyshak M (ONCOLOGIST)',
   },
   {
     id: 15,
@@ -377,6 +405,8 @@ export const data = [
     para2:'Diabetes and high blood pressure are the most common causes of kidney failure. Sometimes, kidney failure also happens quickly due to any unforeseen cause. Acute kidney failure (or acute kidney injury) is when the kidneys lose function suddenly (within hours or days). This type of kidney failure could be temporary. Common causes of acute kidney failure can include:    ',
     head3:'Is It Possible to Prevent Kidney Failure?    ',
     para3:'Though kidney failure from chronic kidney disease can’t be reversed, you can do things that help to preserve kidney function. Healthy habits will slow down how quickly kidneys lose their functional abilities. If you are already a victim of chronic kidney disease or kidney failure, you should: Monitor your kidney function., Keep your blood sugar levels under control.,  Keep your blood pressure levels in a normal range.    Avoid smoking.Make healthy diet choices and limit foods high in protein and sodium    ',
+    doctor:'https://viewofhealth.com/wp-content/uploads/2020/04/Dr-Reading-scaled.jpg',
+    docname:'Dr.Jinu George(CARDIOLOGIST)',
   },
   {
     id: 16,
@@ -402,6 +432,8 @@ export const data = [
     para2:'Dengue fever-This kind of fever is classified as a mosquito-borne viral disease occurring in tropical and subtropical areas. Getting infected with the virus a second time causes a significantly greater risk of developing severe disease.  Leptospirosis Fever-This is a bacterial disease that affects humans and animals and is caused by bacteria of the genus Leptospira. In certain cases, some infected persons may have no symptoms at all.',  
     head3:' Conclusion    ',
     para3:'Fever is a general sign that something is wrong with the body. We usually tend to take it lightly or do self-medication which is not the right way to deal with it. Knowing the underlying cause of fever is necessary not only for its treatment but also to avoid complications. Always consult your physician and take the prescribed tests without fail to determine and commence the right medication.    ',
+    doctor:'https://shoesfordoctors.com/wp-content/uploads/2018/08/Depositphotos_74956115_s-2019-min-1.jpg',
+    docname:'Dr.Manu Jacob Varghese(SURGEON)',
   },
   {
     id: 17,
@@ -428,6 +460,8 @@ export const data = [
     para2:'',
     head3:'',
     para3:'',
+    doctor:'https://thumbs.dreamstime.com/b/young-female-doctor-gray-background-keeps-folder-documents-thinks-to-write-there-displaying-one-139768565.jpg',
+    docname:'Dr.Anita John(HEPATOLOGIST)',
   },
   {
     id: 18,
@@ -453,5 +487,7 @@ export const data = [
     para2:'',
     head3:'',
     para3:'',
+    doctor:'https://blogs.davita.com/medical-insights/wp-content/uploads/sites/8/2017/06/iStock-508387030.jpg',
+    docname:'Dr.Smitha S Nair(PEDIATRICIAN)',
   },
 ];

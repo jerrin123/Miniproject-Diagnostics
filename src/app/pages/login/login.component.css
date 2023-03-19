@@ -1,3 +1,8 @@
+*{
+  font-family: serif;
+  
+  
+}
 .about-section .btn-box {
   position: relative;
 }
@@ -5,3 +10,4 @@
 .about-section .btn-box a {
   padding: 15px 50px;
 }
+
