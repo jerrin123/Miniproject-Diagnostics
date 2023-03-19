@@ -25,49 +25,49 @@
         </div>
     </div>
     <div class="col-lg-4 bg-red py-5 px-5">
-        <form action="">
+        <form  [formGroup]= "AddForm">
             <h4 class="text-center text-white mb-4">Make An Appointment We Will Call You</h4>
             <div class="row">
                 <div class="col-md-6 col-12 my-md-0 my-2">
-                    <input type="text" class="form-control bg-darkred" placeholder="Your Full Name">
+                    <input type="text" class="form-control bg-darkred" formControlName="Name" placeholder="Your Full Name">
                 </div>
                 <div class="col-md-6 col-12 my-md-0 my-2 ">
-                    <input type="email" class="form-control bg-darkred" placeholder="Your Email">
+                    <input type="email" class="form-control bg-darkred" formControlName="Email" placeholder="Your Email">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-12 my-2">
-                    <input type="text" class="form-control bg-darkred" placeholder="Your Phone Number">
+                    <input type="text" class="form-control bg-darkred"formControlName="Phone"  placeholder="Your Phone Number">
                 </div>
                 <div class="col-md-6 col-12 my-2">
-                    <select name="" id="dropDown" class="form-control bg-darkred shadow-none">
+                    <select name="" id="dropDown" class="form-control bg-darkred shadow-none" formControlName="Doctors">
                         <option value="" hidden selected>Docotrs</option>
-                        <option value="service 1">DR.Joseph Kuruvila (MBBS, DIABATOLOGIST)</option>
-                        <option value="service 1"> Dr.Rajeev Philp (ONCOLOGIST)</option>
-                        <option value="service 1">Dr. Neethu Jerrin (GYNECOLOGIST)</option>
-                        <option value="service 1">Dr. Veena kumar Iyer (ORTHO)</option>
-                        <option value="service 1">Dr.Zaem Ali Ahamed  (PHYSICIAN)</option>
-                        <option value="service 1">Dr.Sherin S  (GYNECOLOGIST)</option>
-                        <option value="service 1">Dr.Farhana (GASTRO)</option>
-                        <option value="service 1">Dr.Akhil G(ORTHO SPCIALIST)</option>
-                        <option value="service 1">Dr. Martin J (DIABATOLOGIST)</option>
-                        <option value="service 1">Dr.Shanu Ali(ENT)</option>
-                        <option value="service 1">Dr. Priya S (PYSICIAN)</option>
-                        <option value="service 1">Dr.Ameer Muhammed(ENT)</option>
-                        <option value="service 1">Dr. Arun Kumar(PHYSICIAN)</option>
-                        <option value="service 1">Dr.Vyshak M (ONCOLOGIST)</option>
-                        <option value="service 1">Dr.Jinu George(CARDIOLOGIST)</option>
-                        <option value="service 1">Dr.Manu Jacob Varghese(SURGEON)</option>
-                        <option value="service 1">Dr.Anita John(HEPATOLOGIST)</option>
-                        <option value="service 1">Dr.Smitha S Nair(PEDIATRICIAN)</option>
+                        <option value="DR.Joseph Kuruvila (MBBS, DIABATOLOGIST)">DR.Joseph Kuruvila (MBBS, DIABATOLOGIST)</option>
+                        <option value="Dr.Rajeev Philp (ONCOLOGIST)"> Dr.Rajeev Philp (ONCOLOGIST)</option>
+                        <option value="Dr. Neethu Jerrin (GYNECOLOGIST)">Dr. Neethu Jerrin (GYNECOLOGIST)</option>
+                        <option value="Dr. Veena kumar Iyer (ORTHO)">Dr. Veena kumar Iyer (ORTHO)</option>
+                        <option value="Dr.Zaem Ali Ahamed  (PHYSICIAN)">Dr.Zaem Ali Ahamed  (PHYSICIAN)</option>
+                        <option value="Dr.Sherin S  (GYNECOLOGIST)">Dr.Sherin S  (GYNECOLOGIST)</option>
+                        <option value="Dr.Farhana (GASTRO)">Dr.Farhana (GASTRO)</option>
+                        <option value="Dr.Akhil G(ORTHO SPCIALIST)">Dr.Akhil G(ORTHO SPCIALIST)</option>
+                        <option value="Dr. Martin J (DIABATOLOGIST)">Dr. Martin J (DIABATOLOGIST)</option>
+                        <option value="Dr.Shanu Ali(ENT)">Dr.Shanu Ali(ENT)</option>
+                        <option value="Dr. Priya S (PYSICIAN)">Dr. Priya S (PYSICIAN)</option>
+                        <option value="Dr.Ameer Muhammed(ENT)">Dr.Ameer Muhammed(ENT)</option>
+                        <option value="Dr. Arun Kumar(PHYSICIAN)">Dr. Arun Kumar(PHYSICIAN)</option>
+                        <option value="Dr.Vyshak M (ONCOLOGIST)">Dr.Vyshak M (ONCOLOGIST)</option>
+                        <option value="Dr.Jinu George(CARDIOLOGIST)">Dr.Jinu George(CARDIOLOGIST)</option>
+                        <option value="Dr.Manu Jacob Varghese(SURGEON)">Dr.Manu Jacob Varghese(SURGEON)</option>
+                        <option value="Dr.Anita John(HEPATOLOGIST)">Dr.Anita John(HEPATOLOGIST)</option>
+                        <option value="Dr.Smitha S Nair(PEDIATRICIAN)">Dr.Smitha S Nair(PEDIATRICIAN)</option>
 
                     </select>
                 </div>
                 <div class="">
                     <textarea cols="10" rows="3" class="form-control bg-darkred shadow-none"
-                        placeholder="Message"></textarea>
+                        placeholder="Message" formControlName="Message"></textarea>
                 </div>
-                <div class=" my-2"> <button class="btn w-100 shadow-none text-uppercase msg-btn">Send
+                <div class=" my-2"> <button class="btn w-100 shadow-none text-uppercase msg-btn" (click)="add()">Send
                         NOW</button> </div>
 
             </div>

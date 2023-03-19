@@ -26,11 +26,14 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import {AngularFireModule} from '@angular/fire/compat'
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminComponent } from './pages/admin/admin.component';
 import { ForgotComponent } from './pages/forgot/forgot.component';
 import { DoctorComponent } from './pages/doctor/doctor.component';
 import { AppointmentComponent } from './pages/appointment/appointment.component';
+import { LoginadminComponent } from './pages/loginadmin/loginadmin.component';
+// import { StorepartnerComponent } from './pages/storepartner/storepartner.component';
+// import { AdminsigninComponent } from './pages/adminsignin/adminsignin.component';
 
 @NgModule({
   declarations: [
@@ -55,12 +58,15 @@ import { AppointmentComponent } from './pages/appointment/appointment.component'
     ForgotComponent,
     DoctorComponent,
     AppointmentComponent,
+    LoginadminComponent,
+    // StorepartnerComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),

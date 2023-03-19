@@ -13,7 +13,7 @@ export class BookingComponent {
     private hero:HeroService,private firestore: Firestore){}
     booknow(){
       alert('submitted succesfully')
-      this.router.navigateByUrl('homepage')
+      this.router.navigate(['/homepage'])
     }
     sendData(f:any)
     {
