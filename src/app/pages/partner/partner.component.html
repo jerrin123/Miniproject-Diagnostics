@@ -1,3 +1,4 @@
+
 <div class="img">
 
   <img src="https://www.medivision.in/uploaded_files/banner/partner-with-us_1652251359.jpg" alt="">
@@ -76,24 +77,24 @@
     
     
     
-    <form #f="ngForm" (ngSubmit)="inData(f)">
-
+    <!-- <form #f="ngForm" (ngSubmit)="inData(f)"> -->
+      <form  [formGroup]= "ThisForm">
       <div class="user-details">
         <div class="input-box">
           <span class="details">Hospital/Lab Name</span>
-          <input type="text" name="name"  value="" placeholder="name" ngModel  >
+          <input type="text" formControlName="Name" value="" placeholder="name"   >
         </div>
         <div class="input-box">
           <span class="details">Contact Person Name</span>
-          <input type="text"  required name="namee"  value="" placeholder="namee" ngModel>
+          <input type="text"  required formControlName="Namee" value="" placeholder="namee" >
         </div>
         <div class="input-box">
           <span class="details">Contact Person Email</span>
-          <input type="email"  required name="email"  value="" placeholder="email" ngModel>
+          <input type="email"  required formControlName="Email" value="" placeholder="email" >
         </div>
         <div class="input-box">
           <span class="details">Contact Person Phone Number</span>
-          <input type="tel"  required name="number"  value="" placeholder="phone" ngModel>
+          <input type="tel"  required formControlName="Phone"  value="" placeholder="phone" >
         </div>
         <!-- <div class="input-box"> -->
         <!-- <span class="details">Password</span> -->
@@ -102,7 +103,7 @@
       <!-- </div> -->
       
       <div class="button">
-        <button class="btn btn-info" type="submit" name="button" (click)="send()">
+        <button class="btn btn-info" type="submit" name="button" (click)="addp()">
           <i class="fa fa-paper-plane-o" aria-hidden="true"></i>send
         </button>
       </div>

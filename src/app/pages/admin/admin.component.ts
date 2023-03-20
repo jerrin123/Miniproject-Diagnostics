@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute ,Router} from '@angular/router';
 import { AuthService } from 'src/app/shared/auth.service';
-import { Details } from 'src/app/interface/this';
+import { Details} from 'src/app/interface/this';
+import { Partner } from 'src/app/interface/detail';
+// import { Job } from 'src/app/interface/job';
+
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
@@ -11,10 +14,16 @@ export class AdminComponent {
 
 
   details!:Details[];
+  detail!:Partner[];
+  // description!:Job[];
+
+  
   constructor(private router :Router, private auth:AuthService){}
 
   ngOnInit(){
     this.get();
+    this.getp();
+    // this.getj();
   }
 
 //collection fetch and intilize
@@ -45,4 +54,31 @@ logout(){
   alert('do you want to logout ?')
   this.router.navigate(['/loginadmin'])
 }
+
+
+//collection fetch and intilize
+getp(){
+this.auth.getp().subscribe((data:Partner[])=>{
+console.log(data)
+this.detail=data;
+})
+}
+addp(){
+this.router.navigate(['/partner']);
+
+}
+
+
+
+
+deletep(id1:any){
+let okConfirm =confirm("Are you sure ?")
+if(okConfirm){
+  this.auth.delete(id1)
+
+}
+alert('delete');
+}
+
+
 }

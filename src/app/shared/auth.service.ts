@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+ import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth'
 import { Router } from '@angular/router';
 import {
@@ -11,8 +11,10 @@ import {
   getDoc,
   updateDoc,
 } from '@angular/fire/firestore';
-import { Details } from '../interface/this';
+ import { Details } from '../interface/this';
 import { Observable } from 'rxjs';
+// import { Partner } from '../interface/this';
+import { Partner } from '../interface/detail';
 @Injectable({
   providedIn: 'root'
 })
@@ -68,6 +70,19 @@ get(): Observable<Details[]> {
   >;
 }
 
+//add partner
+addp(detail: Partner) {
+  detail.id1 = doc(collection(this.fs, 'id1')).id;
+  return addDoc(collection(this.fs, 'collab',), detail);
+}
+//read
+getp(): Observable<Partner[]> {
+  let detailRef = collection(this.fs, 'collab');
+  return collectionData(detailRef, { idField: 'doc_id' }) as Observable<
+    Partner[]
+  >;
+}
+
 // get a add details by id
 // async getAddById(id: any): Promise<any> {
 //   let docRef = doc(this.fs, 'Details', id);
@@ -98,6 +113,11 @@ delete(id:any){
 
 }
 
+deletep(id1:any){
+  let docRef = doc(this.fs, 'collab', id1);
+  return deleteDoc(docRef)
+
+}
 adminlogin(email: string, password: string) {
   this.fireauth.signInWithEmailAndPassword(email, password).then(
     (res) => {

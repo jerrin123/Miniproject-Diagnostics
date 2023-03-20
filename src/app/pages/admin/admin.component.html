@@ -11,6 +11,45 @@
 <!-- </nav> -->
 <!-- <section></section> -->
 
+<button class="btn btn-danger my-10 me-10" (click)="logout()">logout</button>
+
+<h1><span style="color: blue;">JJ</span>Diagnostic Center</h1>
+<ol>
+    <li >
+      <div class="icon"><i class="bi bi-bell-fill"></i></div>
+
+        <div class="title">Lab Tech</div>
+        <div class="descr">Currently Have 400 Lab Technicians</div>
+    </li>
+    <li >
+      <div class="icon"><i class="bi bi-printer"></i></div>
+
+        <div class="title">Xray Tech</div>
+        <div class="descr">Have 40 Xray Technicians</div>
+    </li>
+    <li >
+      <div class="icon"><i class="bi bi-bandaid-fill"></i></div>
+        <div class="title">Doctors</div>
+        <div class="descr">WE Have 20+ Specialised Doctors</div>
+    </li>
+    <li >
+        <div class="icon"><i class="bi bi-house-heart-fill"></i></div>
+        <div class="title">Branches</div>
+        <div class="descr">Have 18 Branches</div>
+    </li>
+    <li >
+        <div class="icon"><i class="bi bi-p-circle"></i></div>
+        <div class="title">Partners</div>
+        <div class="descr">Have 20+ Major Hospital and lab as partners</div>
+    </li>
+    <li >
+        <div class="icon"><i class="bi bi-bookmark-heart"></i></div>
+        <div class="title">Vacancy</div>
+        <div class="descr">Currently have 30 Vacancy</div>
+    </li>
+</ol>
+
+
 
 
 
@@ -25,10 +64,10 @@
   </div>
   <!-- <button class="btn bg-gradient-primary my-1 me-1" (click)="logout()">logout</button> -->
 
-<h1 class="text-center pb-5 mt-3">DOCTOR BOOKING DETAILS</h1>
+<h1 class="text-center pb-5 mt-3">DOCTOR Appointment DETAILS</h1>
 
-<div class="container mt-3 pt-5">
-<table class="table table-dark">
+<div class="tb text-center mt-3 pt-5">
+<table class="table table-primary">
 <thead>
 <tr>
 <th scope="col">No.</th>
@@ -62,4 +101,52 @@
 
 </div>
 
+<!-- <button class="btn btn-danger my-10 me-10" (click)="logout()">logout</button> -->
+
+
+
+
+<div class="col-auto">
+  <div class="bg-white border-radius-lg d-flex me-2">
+    <!-- <input type="text" class="form-control border-0 ps-3" placeholder="Type here..."> -->
+    <!-- <button class="btn bg-gradient-primary my-1 me-1">Search</button> -->
+  </div>
+</div>
+<!-- <button class="btn bg-gradient-primary my-1 me-1" (click)="logout()">logout</button> -->
+<br>
+<br>
+<h1 class="text-center pb-5 mt-3">Partner Details</h1>
+
+<div class="tb text-center mt-3 pt-5">
+<table class="table table-primary">
+<thead>
+<tr>
+<th scope="col">No.</th>
+<th scope="col">Name</th>
+<th scope="col">Name1</th>
+<th scope="col">Phone No</th>
+<th scope="col">Email</th>
+<!-- <th scope="col"></th> -->
+
+
+<!-- <th scope="col">Delete</th> -->
+<!-- <th scope="col">Accept</th> -->
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let j of detail">
+<th scope="row">1</th>
+<td>{{j.Name}}</td>
+<td>{{j.Namee}}</td>
+<td>{{j.Phone}}</td>
+<td>{{j.Email}}</td>
+<!-- <td>{{i.Message}}</td> -->
+
+
+<!-- <td><i class="bi bi-trash3-fill text-danger" (click)="delete(j.doc_id)"></i></td> -->
+<!-- <td><i class="bi bi-check-circle-fill text-success"></i></td> -->
+</tr>
 <button class="btn btn-danger my-10 me-10" (click)="logout()">logout</button>
+
+
+

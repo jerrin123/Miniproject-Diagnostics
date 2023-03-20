@@ -1,0 +1,89 @@
+
+DEVELOPED BY
+JERRIN JACOB 
+MACFAST, TIRUVALLA 
+
+PROJECT NAME: DIAGNOSTIC SERVICE (DYNAMIC WITH CREATE READ DELETE OPEARTIONS)
+ ------------------------------------------------------------------------------------------------------------------------------                                           
+
+ADMIN SIDE DETAILS
+
+ADMIN
+
+         admin email id : adminjj@gmail.com
+         admin password : admin@123
+
+         ********admin related components 
+         .
+         **********adminlogin , admin (dashboard)
+
+MAJOR FUNCTIONS 
+.
+.-------->Admin Can LOGIN , Read & Delete INFORMATION  from DOCTOR APPOINTMENT FORM And JOB APPLICATION FORM IN CAREER Pages that will be ALWAYS STORED IN FIREBASE DATABASE
+*****                                                                                                                                                           *************
+    *                                                                                                                                                           *
+    *                                                                                                                                                           *
+    *************************************************************************************************************************************************************
+
+USER SIDE 
+            USER CAN SIGN UP 
+                     LOGIN 
+                     VIEW HEALTH PACKAGES AND BOOKING 
+                     CAN VIEW SYSTEM THAT USED IN THIS SECTOR 
+                     CAN BECOME A PARTNER OF THIS FIRM USING PARTNER WITH US FORM 
+                     CAN APPLY JOB IN THE AVAILABLE VACANCYS IN THE CAREER PAGE 
+                     CAN VIEW THE BLOG 
+                     CAN CONTATCT THEM 
+                     CAN VIEW THE DOCTORS PANEL AND  CAN TAKE APPOINTMENT WITH SPECIALSED DOCTORS IN THE DOCTOR APPOINTMENT PAGE   
+*******
+      *
+      *
+      **************************************************************************************************************************
+
+
+TOTAL COMPONENTS 
+          *
+          *
+          *
+          ************ 1.HOME 
+                       2.LOGIN 
+                       3.REGISTER 
+                       4.ABOUT 
+                       5.APPLICATION 
+                       6.APPOINTMENT 
+                       7.BLOG 
+                       8.CAREER
+                       9.PARTNER
+                       10.MENU 
+                       11.AUTOMATION 
+                       12.CONTACT US 
+                       13.BOOKING 
+                       14.DOCTOR 
+                       15.FORGOT 
+                       16.SINGLE 
+                       17.SINGLE BLOG 
+                       18.ADMIN 
+                       19.LOGIN ADMIN 
+                       20.FOOTER 
+                       21.NAVBAR
+ ******************************************
+                                           *
+                                           *
+                                           *************************************************************
+ SERVICE FILES *****
+                    *
+                    *
+                    *
+                    *****HERO.SERVICE 
+                        *AUTH.SERVICE(USED FOR THE USERS AUTHENTICATION AND FIREBASE CONNECTION)
+
+*********************************************************************************************************
+OTHER FILES *
+            *
+            *
+            *
+            ************ INTERFACE
+
+            ************ IMAGES IN ASSESTS  
+
+            ************ DATA.TS (FULL DETAILS INSIDE THIS)       

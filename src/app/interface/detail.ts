@@ -1,8 +1,10 @@
-export interface Detailss{
+
+export interface Partner{
     doc_id:string,
-    id:string,
+    id1:string,
     Name:string,
-    Name1:string,
     Email:string,
     Phone:string,
+    Namee:string,
+   
 }
