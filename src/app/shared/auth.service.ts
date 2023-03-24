@@ -1,4 +1,4 @@
- import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth'
 import { Router } from '@angular/router';
 import {
@@ -27,7 +27,7 @@ export class AuthService {
      this.fireauth.signInWithEmailAndPassword(email,password).then( () =>
   {
 localStorage.setItem('token','true')
-this.router.navigate(['/booking']) 
+this.router.navigate(['/user']) 
 }, err => {
     alert('You Need to Create an Account')
     this.router.navigate(['/login'])

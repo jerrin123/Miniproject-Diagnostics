@@ -32,6 +32,9 @@ import { ForgotComponent } from './pages/forgot/forgot.component';
 import { DoctorComponent } from './pages/doctor/doctor.component';
 import { AppointmentComponent } from './pages/appointment/appointment.component';
 import { LoginadminComponent } from './pages/loginadmin/loginadmin.component';
+import { StorepartnerComponent } from './pages/storepartner/storepartner.component';
+import { UserComponent } from './pages/user/user.component';
+import { PartnerpageComponent } from './pages/partnerpage/partnerpage.component';
 // import { StorepartnerComponent } from './pages/storepartner/storepartner.component';
 // import { AdminsigninComponent } from './pages/adminsignin/adminsignin.component';
 
@@ -59,6 +62,9 @@ import { LoginadminComponent } from './pages/loginadmin/loginadmin.component';
     DoctorComponent,
     AppointmentComponent,
     LoginadminComponent,
+    StorepartnerComponent,
+    UserComponent,
+    PartnerpageComponent,
     // StorepartnerComponent,
     
   ],

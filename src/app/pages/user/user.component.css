@@ -1,0 +1,19 @@
+*{
+    background-image: url(https://img.freepik.com/free-vector/laboratory-with-realistic-microscope_1419-2186.jpg?w=900&t=st=1679620412~exp=1679621012~hmac=d70ebe66dc7fa06a6185ac51f4c4062fd521110d34771a9ec1a23b77463d3964);
+color: white;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 550px}
+    
+  /* Set gray background color and 100% height */
+  .sidenav {
+    /* background-color: #969ff8; */
+    height: 100%;
+    background-image: url(https://th.bing.com/th/id/OIP.DMPFmLk8e90OjeEIZB1lUAAAAA?pid=ImgDet&rs=1) 
+  }
+      
+  /* On small screens, set height to 'auto' for the grid */
+  @media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+  }

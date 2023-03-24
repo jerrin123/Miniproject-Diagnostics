@@ -52,7 +52,7 @@ export class PartnerComponent {
       if(res){
         alert('Submit Successfully')
         this.ThisForm.reset();
-        this.router.navigate(['/doctor'])
+        this.router.navigate(['/partnerpage'])
       }
       else{
         console.log('Data Not Added ')

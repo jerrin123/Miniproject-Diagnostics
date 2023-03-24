@@ -14,6 +14,6 @@ export class DoctorComponent {
   menu=this.hero.giveData();
     gotohere(id: any){
       localStorage.setItem('id',id);
-      this.router.navigateByUrl('/appointment');
+      // this.router.navigate(['/login']);
     }
 }

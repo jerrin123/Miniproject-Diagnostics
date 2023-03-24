@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+ import { Component } from '@angular/core';
 import { HeroService } from 'src/app/hero.service';
 import { ActivatedRoute, Router} from '@angular/router';
 import { Firestore,collection,addDoc } from '@angular/fire/firestore';

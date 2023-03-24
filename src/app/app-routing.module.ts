@@ -17,9 +17,11 @@ import { LoginComponent } from './pages/login/login.component';
 import { LoginadminComponent } from './pages/loginadmin/loginadmin.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { PartnerComponent } from './pages/partner/partner.component';
+import { PartnerpageComponent } from './pages/partnerpage/partnerpage.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { SingleComponent } from './pages/single/single.component';
 import { SingleblogComponent } from './pages/singleblog/singleblog.component';
+import { UserComponent } from './pages/user/user.component';
 
 const routes: Routes = [
   {
@@ -78,6 +80,12 @@ const routes: Routes = [
   },
   {
     path:'loginadmin',component:LoginadminComponent
+  },
+  {
+    path:'user',component:UserComponent
+  },
+  {
+    path:'partnerpage',component:PartnerpageComponent
   },
 ];
 
